@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "autopath",
+  "version": "${version}",
+  "name": "AutoPath",
+  "description": "Sets two points and automatically walks the best path between them.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.autopath.AutoPathClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
